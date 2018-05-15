@@ -7,8 +7,6 @@
 </head>
 <body>
 
-<%= link_to 'About', about_path %>
-
 <h1> Welcome to the Pie homepage!</h1>
 <h3>Here you can find all sorts of pie recipes, including our world famous grandma's lemon meringue pie!</h3>
 <hr>
@@ -21,7 +19,7 @@
 </ul>
 <hr>
 <img src="https://webster.cs.washington.edu/images/pie.jpg" alt="grandma's lemon meringue pie"> 
-<h5> Click <a href="pie.html">here</a> for grandma's lemon meringue pie recipe!</h5>
+<h5> Click <%= link_to 'here', about_path %> for grandma's lemon meringue pie recipe!</h5>
 <hr>
 <h3>WHAT?! YOU DON'T WANT TO VISIT MY GRANDMA'S RECIPE PAGE?! FINE!</h3>
 <h5>Here's a really tiny link to various recipes on the internet...goodbye</h5>
